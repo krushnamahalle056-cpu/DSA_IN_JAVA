@@ -56,19 +56,24 @@ public class ArrayBasics {
 //        }
 //        System.out.println(pro);
 
-        // Que: Print largest in the array
-        int[] b = {33,35,45,53,64,7,84};
-        int max = b[0];
-        for(int i=0;i<b.length;i++){
-            if(b[i]>max){
-                max=b[i];
-            }
-        }
-        System.out.println(max);
+//        // Que: Print largest in the array
+//        int[] b = {33,35,45,53,64,7,84};
+//        int max = b[0];
+//        for(int i=0;i<b.length;i++){
+//            if(b[i]>max){
+//                max=b[i];
+//            }
+//        }
+//        System.out.println(max);
+//
+//
+//         // String array
+//        String[] arr={"Krushna", "Sarthak", "Vishal", "Hariom", "Pavan"};
+//        for(int i=0;i<arr.length;i++){
+//            System.out.println(arr[i]);
+//        };
 
-
-
-
+        System.out.println("commiting code");
 
     }
 }
