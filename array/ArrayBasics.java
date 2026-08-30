@@ -85,23 +85,21 @@ public class ArrayBasics {
 //            System.out.println(arr[i]);
 //        }
 
-        // Que : Search in array
-        Scanner sc = new Scanner(System.in);
-        int[] arr = {123,31,443,342,21,33,22};
-
-        System.out.print("Enter the target number: ");
-        int target = sc.nextInt();
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i] == target){
-
-            System.out.println("Target number is found ! The number is: " + arr[i]);
-            return ;
-            }
-        }
-
-        System.out.println("Target is not in array ");
-
-
+//        // Que : Search in array
+//        Scanner sc = new Scanner(System.in);
+//        int[] arr = {123,31,443,342,21,33,22};
+//
+//        System.out.print("Enter the target number: ");
+//        int target = sc.nextInt();
+//        for(int i = 0; i < arr.length; i++){
+//            if(arr[i] == target){
+//
+//            System.out.println("Target number is found ! The number is: " + arr[i]);
+//            return ;
+//            }
+//        }
+//        System.out.println("Target is not in array ");
+//
 
 
     }
