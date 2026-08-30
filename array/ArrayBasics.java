@@ -104,19 +104,19 @@ public class ArrayBasics {
 //
 //        int[] arr = {4,10,10,6,3,8};
 //        int max = Integer.MIN_VALUE;
-//        int mx = Integer.MIN_VALUE;
+//        int smax = Integer.MIN_VALUE;
 //        for(int i=0;i<arr.length;i++){
 //            if(arr[i]>max){
 //                max = arr[i];
 //            }
 //        }
 //        for(int i=0;i<arr.length;i++){
-//            if(arr[i]<max && arr[i]>mx ){
-//                mx = arr[i];
+//            if(arr[i]<max && arr[i]>smax ){
+//                smax = arr[i];
 //            }
 //        }
 //        System.out.println("The Maximum number is : "+ max);
-//        System.out.println("The Second Maximum number is : "+ mx);
+//        System.out.println("The Second Maximum number is : "+ smax);
 
 
     }
