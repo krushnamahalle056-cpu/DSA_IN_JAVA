@@ -73,7 +73,18 @@ public class ArrayBasics {
 //            System.out.println(arr[i]);
 //        };
 
-        System.out.println("commiting code 2");
+//        // Que : Multiply odd indexed elements by 2 and add 10 to even endexed elements
+//
+//        int[] arr = {10,20,30,40,50,60};
+//        for(int i=0;i<arr.length;i++){
+//            if(i%2!=0){
+//                arr[i] *= 2;
+//            }else{
+//                arr[i] += 10;
+//            }
+//            System.out.println(arr[i]);
+//        }
+
 
     }
 }
