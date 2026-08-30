@@ -100,7 +100,23 @@ public class ArrayBasics {
 //        }
 //        System.out.println("Target is not in array ");
 //
+         // Que : Print the second Maximum element in the array
 
+        int[] arr = {4,10,10,6,3,8};
+        int max = arr[0];
+        int mx = arr[0];
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]>max){
+                max = arr[i];
+            }
+        }
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]<max && arr[i]>mx ){
+                mx = arr[i];
+            }
+        }
+        System.out.println("The Maximum number is : "+ max);
+        System.out.println("The Second Maximum number is : "+ mx);
 
     }
 }
