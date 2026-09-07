@@ -6,6 +6,7 @@ public class Segregate_0s_and_1s {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[6];
+        System.out.print("Enter 6 numbers: ");
         for (int i = 0; i < 6; i++) {
             arr[i] = sc.nextInt();
         }
@@ -34,5 +35,8 @@ public class Segregate_0s_and_1s {
         for(int ele : arr){
             System.out.print(ele + " ");
         }
+
     }
 }
+
+
