@@ -25,5 +25,19 @@ public class MergeTwoSortedArrays {
                 k++;
             }
         }
+        if(i==a.length){  // a array khatam -> b ke bache hue ele lo
+            while(j<b.length){
+                c[k] =  b[j];
+                j++;
+                k++;
+            }
+        }
+        if(j==b.length){  // b array khatam -> a ke bache hue ele lo
+            while(i<a.length){
+                c[k] =  b[i];
+                i++;
+                k++;
+            }
+        }
     }
 }
