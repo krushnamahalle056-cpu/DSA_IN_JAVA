@@ -8,6 +8,8 @@ public class FindDoublicateEle {
             System.out.print(ele+" ");
         }
 
+        System.out.println();
+
         // Que: Find sum of array
         int[] a = {10, 20, 30, 40, 50};
         int sum = 0;
