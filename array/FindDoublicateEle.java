@@ -18,5 +18,9 @@ public class FindDoublicateEle {
         }
         System.out.print("sum= "+sum);
 
+        System.out.println();
+
+
+
     }
 }
