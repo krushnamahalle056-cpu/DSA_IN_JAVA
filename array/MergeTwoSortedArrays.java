@@ -19,12 +19,13 @@ public class MergeTwoSortedArrays {
             if(a[i]<b[j]){
                 c[k] =  a[i];
                 i++;
-                k++;
+
             }else if(a[i]>b[j]){
                 c[k] =  b[j];
                 j++;
-                k++;
+
             }
+            k++;
         }
         if(i==a.length){  // a array khatam -> b ke bache hue ele lo
             while(j<b.length){
