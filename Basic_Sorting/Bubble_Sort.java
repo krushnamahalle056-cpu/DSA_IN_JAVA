@@ -3,7 +3,7 @@ package Basic_Sorting;
 public class Bubble_Sort {
     public static void print(int[] arr){
         for(int ele : arr){
-            System.out.print(ele);
+            System.out.print(ele + " ");
         }
     }
     static void main(String[] args) {
