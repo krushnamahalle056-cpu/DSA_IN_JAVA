@@ -7,6 +7,11 @@ public class Selection_Sort {
         }
     }
 
+    static void main(String[] args) {
+        int[] arr = {1,-2,6,0,5,8,4,7};
+        int n = arr.length;
+        print(arr);
 
+    }
 
 }
