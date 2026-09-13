@@ -7,4 +7,10 @@ public class insertion_Sort {
         }
     }
 
+    static void main(String[] args) {
+        int[] arr = {3,5,-1,0,2,8,5};
+        print(arr);
+
+    }
+
 }
