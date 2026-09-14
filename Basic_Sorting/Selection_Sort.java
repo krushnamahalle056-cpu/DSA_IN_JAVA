@@ -12,6 +12,8 @@ public class Selection_Sort {
         int n = arr.length;
         print(arr);
 
+        // Easy code of Selection_Sort
+
         for(int i = 0; i< n-1 ; i++){
             int minIndex = i;
             for(int j = i+1; j<n ; j++){
@@ -24,6 +26,9 @@ public class Selection_Sort {
             arr[minIndex] = temp;
 
         }
+
+
+        // Complex code of selection_Sort
 
 //        for(int i = 0; i<n-1; i++){
 //            int min = Integer.MAX_VALUE;
