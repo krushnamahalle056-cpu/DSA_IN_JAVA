@@ -24,6 +24,8 @@ public class Kth_Smallest_Que {
             arr[minIndex] = temp;
         }
         System.out.println(" ");
+        print(arr);
+        System.out.println(" ");
         System.out.println(arr[k-1]);
 
     }
