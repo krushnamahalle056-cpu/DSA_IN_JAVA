@@ -19,7 +19,9 @@ public class Selection_Sort {
                     minIndex = j;
                 }
             }
-
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
 
         }
 
