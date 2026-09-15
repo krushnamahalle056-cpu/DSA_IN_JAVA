@@ -12,6 +12,8 @@ public class Squre_Root {
             root = i;
         }
         System.out.println(root);
+
+        // Time Complexity: O(√n)
     }
 }
 
