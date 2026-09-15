@@ -8,7 +8,17 @@ public class Search_in_decending_order_array {
         int start = 0 ;
         int end = n-1;
         int index= -1;
-
+        while(start<=end){
+            int mid = (start + end )/2;
+            if(arr[mid] == target){
+                index = mid;
+                break;
+            }else if(arr[mid] < target){
+                end = mid-1;
+            }else{
+                start = mid +1;
+            }
+        }
 
         System.out.println(index);
 
