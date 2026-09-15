@@ -27,6 +27,29 @@ public class first_and_last_Occurrences_BinarySearchQue {
             }
         }
 
+        // While loop for last Occurrences
+
+        int lo = 0;
+        int hi = n-1;
+        int indx2=-1;
+        while(lo<=hi){
+            int mid = (lo+hi)/2;
+            if(arr[mid] > x){
+                hi = mid-1;
+            }
+            else if(arr[mid]< x){
+                lo = mid +1;
+            }else {
+                indx2 = mid;
+                lo = mid+1;
+            }
+        }
+
+        newarr.add(indx1);
+        newarr.add(indx2);
+
+        System.out.println(newarr);
+
 
 
 
