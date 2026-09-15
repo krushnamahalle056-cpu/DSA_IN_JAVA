@@ -14,6 +14,7 @@ public class Squre_Root {
         System.out.println(root);
 
         // Time Complexity: O(√n)
+        // Space Complexity = O(1)
     }
 }
 
