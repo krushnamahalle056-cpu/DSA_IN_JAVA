@@ -12,6 +12,7 @@ public class Binary_Search_code {
             int mid = (start + end)/2;
             if(arr[mid] == target){
                 index = mid;
+                break;
             }else if(arr[mid] < target){
                 start = mid +1;
             }
