@@ -13,6 +13,23 @@ public class first_and_last_Occurrences_BinarySearchQue {
         int end = n-1;
         int indx1=-1;
 
+        // for fist Occurrences
+        while(start<=end){
+            int mid = (start+end)/2;
+            if(arr[mid] > x){
+                end = mid-1;
+            }
+            else if(arr[mid]< x){
+                start = mid +1;
+            }else {
+                indx1 = mid;
+                end = mid-1;
+            }
+        }
+
+
+
+
 
     }
 }
