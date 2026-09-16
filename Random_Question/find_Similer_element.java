@@ -13,6 +13,12 @@ public class find_Similer_element {
             if(arr[mid]==arr[mid-1] && arr[mid]==arr[mid+1]){
                 System.out.println(arr[mid]);
             }
+            int first, second;
+            if(arr[mid]==arr[mid-1]){
+                first = mid-1;
+            }else{
+                second = mid+1;
+            }
 
 
         }
