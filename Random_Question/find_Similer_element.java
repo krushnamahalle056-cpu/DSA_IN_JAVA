@@ -1,7 +1,9 @@
 package Random_Question;
 
 public class find_Similer_element {
-    static void main(String[] args) {
+
+    public static void main(String[] args) {
+
         int[] arr = {1,1,2,2,4,4,6,6,7,8,8,9,9};
 
         int start = 0;
@@ -17,17 +19,19 @@ public class find_Similer_element {
             }
 
             if (arr[mid] == arr[mid + 1]) {
-                // Pair is correct, single element is on right
+
+                // Pair is correct
+                // Single element is on the right
                 start = mid + 2;
+
             } else {
-                // Pair is broken, single element is on left
+
+                // Pair is broken
+                // Single element is on the left
                 end = mid;
             }
         }
 
         System.out.println(arr[start]);
-
-        }
-
     }
 }
