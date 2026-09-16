@@ -6,6 +6,16 @@ public class find_Similer_element {
         int n = arr.length;
         int start = 0 ;
         int end = n-1;
+        while(start<=end){
+            int mid = (start+end)/2;
+            if(n == 1) System.out.println(arr[0]);
+            if(arr[mid-1] != arr[mid-2]) System.out.println(arr[mid-1]);
+            if(arr[mid]==arr[mid-1] && arr[mid]==arr[mid+1]){
+                System.out.println(arr[mid]);
+            }
+
+
+        }
 
     }
 }
