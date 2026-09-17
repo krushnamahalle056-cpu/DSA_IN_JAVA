@@ -8,7 +8,10 @@ public class search_rotated_sorted_array {
         int end = arr.length-1;
         while(start<=end){
             int mid = start + (end-start)/2;
-            if(arr[start] <= arr[mid]){
+            if(arr[mid]==target){
+                System.out.println(mid);
+            }
+            else if(arr[start] <= arr[mid]){
                 if(arr[start] >= target && arr[mid] <= target){
                     start = mid+1;
                 }else{
