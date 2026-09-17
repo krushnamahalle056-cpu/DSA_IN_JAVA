@@ -10,7 +10,7 @@ public class search_rotated_sorted_array {
             int mid = start + (end-start)/2;
             if(arr[mid]==target){
                 System.out.println(mid);
-
+                break;
             }
             else if(arr[start] <= arr[mid]){
                 if(arr[start] <= target && arr[mid] > target){
