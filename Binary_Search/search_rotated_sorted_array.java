@@ -11,6 +11,14 @@ public class search_rotated_sorted_array {
             if(arr[start] <= arr[mid]){
                 if(arr[start] >= target && arr[mid] <= target){
                     start = mid+1;
+                }else{
+                    end = mid-1;
+                }
+            }else{
+                if(arr[end] >= target && arr[mid] <= target){
+                    end = mid-1;
+                }else{
+                    start = mid+1;
                 }
             }
         }
