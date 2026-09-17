@@ -29,20 +29,3 @@ public class search_rotated_sorted_array {
     }
 }
 
-//
-//        if(arr[start] <= key && arr[mid]>= key){
-//end = mid-1;
-//        }else{
-//start = mid+1;
-//        }
-//        }else{
-//        if(arr[end] >= key && arr[mid]< key){
-//start = mid+1;
-//        }else{
-//end = mid-1;
-//        }
-//        }
-//
-//
-//        }
-//        return -1;
