@@ -36,66 +36,41 @@ public class find_Similer_element {
     }
 }
 
-// maximum count of nagative integer and positive integer
-
-int n = nums.length;
-int p = 0;
-int neg = 0;
-int start = 0;
-int end = n-1;
-
-        while(start<=end){
-int mid = start + (end-start)/2;
-            if(nums[mid] < 0){
-start = mid+1;
-        }else{
-end = mid-1;
-        }
-
-p = start;
-        }
-
-int lo = 0;
-int hi = n-1;
-        while(lo<= hi){
-int mid = lo+(hi-lo)/2;
-            if(nums[mid]<=0){
-lo = mid+1;
-        }else{
-hi = mid-1;
-        }
-neg = n-lo;
-        }
-
-                if(p>=neg){
-        return p;
-        }else{
-                return neg;
-        }
-
-//  Search in Rotated Sorted Array
-int n = arr.length;
-int start = 0;
-int end = n-1;
-        while(start<=end){
-int mid = start + (end-start)/2;
-            if(arr[mid]== key ){
-        return mid;
-            }
-                    else if(arr[mid] >= arr[start]){
-        if(arr[start] <= key && arr[mid]>= key){
-end = mid-1;
-        }else{
-start = mid+1;
-        }
-        }else{
-        if(arr[end] >= key && arr[mid]< key){
-start = mid+1;
-        }else{
-end = mid-1;
-        }
-        }
-
-
-        }
-        return -1;
+//// maximum count of nagative integer and positive integer
+//
+//int n = nums.length;
+//int p = 0;
+//int neg = 0;
+//int start = 0;
+//int end = n-1;
+//
+//        while(start<=end){
+//int mid = start + (end-start)/2;
+//            if(nums[mid] < 0){
+//start = mid+1;
+//        }else{
+//end = mid-1;
+//        }
+//
+//p = start;
+//        }
+//
+//int lo = 0;
+//int hi = n-1;
+//        while(lo<= hi){
+//int mid = lo+(hi-lo)/2;
+//            if(nums[mid]<=0){
+//lo = mid+1;
+//        }else{
+//hi = mid-1;
+//        }
+//neg = n-lo;
+//        }
+//
+//                if(p>=neg){
+//        return p;
+//        }else{
+//                return neg;
+//        }
+//
+////  Search in Rotated Sorted Array
