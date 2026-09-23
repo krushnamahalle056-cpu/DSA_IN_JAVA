@@ -10,12 +10,17 @@ public class new_que {
             System.out.print(arr[i] + " ");
         }
 
+        System.out.println(" ");
+
         // Second method to print array
         int i = 0;
         while(i<n){
             System.out.print(arr[i] + " ");
             i++;
         }
+
+        System.out.println(" ");
+
 
         // third method to print array
         for(int ele: arr){
