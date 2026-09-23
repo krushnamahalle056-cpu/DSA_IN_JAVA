@@ -6,7 +6,7 @@ public class new_que {
         int n = arr.length;
         // Print the array
         for(int i=0;i<n; i++){
-            System.out.println(i+" "+arr[i]);
+            System.out.print(i+" "+arr[i]);
         }
 
         // Second method to print array
