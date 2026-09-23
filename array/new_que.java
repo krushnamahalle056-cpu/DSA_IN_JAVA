@@ -38,7 +38,10 @@ public class new_que {
         }
 
         for(int l=0; l<5; l++){
-
+            for(int k = 0; k<5 ; k++){
+                System.out.print("*");
+            }
+            System.out.println(" ");
         }
 
 
