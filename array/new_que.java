@@ -9,6 +9,13 @@ public class new_que {
             System.out.println(i+" "+arr[i]);
         }
 
+        // Second method to print array
+        int i = 0;
+        while(i<n){
+            System.out.println(i+" "+arr[i]);
+            i++;
+        }
+
         //
 
     }
