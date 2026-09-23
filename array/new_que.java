@@ -31,8 +31,14 @@ public class new_que {
         // new array add
         int[] newArray = {23,21,12,32,12,11,22,34,56};
         int m =  newArray.length;
+
+        // first method to print array
         for (int j = 0; j < m; j++) {
             System.out.print(newArray[j] + " ");
+        }
+
+        for(int l=0; l<5; l++){
+
         }
 
 
