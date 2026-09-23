@@ -13,13 +13,13 @@ public class new_que {
         // Second method to print array
         int i = 0;
         while(i<n){
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
             i++;
         }
 
         // third method to print array
         for(int ele: arr){
-            System.out.println(i+" " + arr[ele]);
+            System.out.println(arr[ele]);
         }
 
     }
