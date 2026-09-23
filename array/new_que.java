@@ -19,7 +19,7 @@ public class new_que {
 
         // third method to print array
         for(int ele: arr){
-            System.out.println(arr[ele]);
+            System.out.print(ele);
         }
 
     }
