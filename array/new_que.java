@@ -16,7 +16,10 @@ public class new_que {
             i++;
         }
 
-        //
+        // third method to print array
+        for(int ele: arr){
+            System.out.println(i+" " + arr[ele]);
+        }
 
     }
 }
