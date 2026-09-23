@@ -37,11 +37,20 @@ public class new_que {
             System.out.print(newArray[j] + " ");
         }
 
-        for(int l=5; l>0; l--){
-            for(int k =5; k>l-1; k--){
+        for(int l=0; l<=5; l++){
+            for(int k =5; k>=1+l; k--){
                 System.out.print("*");
             }
             System.out.println(" ");
+
+        }
+
+        for(int l=0; l<=5; l++){
+            for(int k =5; k>=1+l; k--){
+                System.out.print("*");
+            }
+            System.out.println(" ");
+
         }
 
 
