@@ -16,8 +16,12 @@ public class StringBasics {
         // input string from user
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your full Name : ");
-        String str = sc.next();         // sc.next() gives the first word of full sentence
+        String str = sc.next();         // sc.next() gives the first word of full sentence as output
         System.out.println("Your full Name is: " + str);
+
+        System.out.println("Enter Branch Name : ");
+        String branch = sc.nextLine();   // sc.nextLine() gives the full sentence as output
+        System.out.println("Branch Name is: " + branch);
 
 
     }
