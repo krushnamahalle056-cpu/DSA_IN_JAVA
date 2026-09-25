@@ -12,7 +12,7 @@ public class NumberOfVowels {
             if(alf == 'a' || alf == 'e' || alf == 'i'  ||alf == 'o' ||alf == 'u'){
                 count++;
             }
-
+            System.out.println("number of vowels is " + count);
         }
 
     }
