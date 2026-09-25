@@ -9,7 +9,9 @@ public class NumberOfVowels {
         int count = 0;
         for(int i = 0;i < s.length(); i++){
             char alf = s.charAt(i);
-
+            if(alf == 'a' || alf == 'e' || alf == 'i'  ||alf == 'o' ||alf == 'u'){
+                count++;
+            }
 
         }
 
