@@ -7,7 +7,7 @@ public class PassingStringsToMethod {
     static void main(String[] args) {
         String x = "Krushna";
         System.out.println(x);
-//        x = "Lavany dada";      // aisa define kiya to change hota hai
+//      x = "Lavany dada";      // aisa define kiya to change hota hai
         change(x);
         System.out.println(x);
 
