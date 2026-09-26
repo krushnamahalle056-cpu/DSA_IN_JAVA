@@ -7,8 +7,8 @@ public class BuiltInMethods {
         System.out.println(str.toLowerCase());
 
         String s = "Harshika";
-        System.out.println(s.compareTo("Harsh"));     // compareTo method give the answer in the form of true or false
-        System.out.println(s.compareTo("ishika"));
+        System.out.println(s.contains("Harsh"));     // contains method give the answer in the form of true or false
+        System.out.println(s.contains("ishika"));
 
     }
 }
