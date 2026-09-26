@@ -5,5 +5,6 @@ public class CompareToStringMethods {
         String a = "Krushna";
         String b = "Hariom";
         System.out.println(a.compareTo(b));
+        //
     }
 }
