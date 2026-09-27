@@ -9,6 +9,8 @@ public class CreateCompareToMethod {
                 }else if(a.charAt(i) != b.charAt(j)){
                     if(a.charAt(i) >  b.charAt(j)){
                         System.out.println(i);
+                    }else{
+                        System.out.println(j);
                     }
                 }
             }
