@@ -17,10 +17,14 @@ public class CompareToStringMethods {
         System.out.println(a);
         a+= 'a';                    // concat the char
         System.out.println(a);
-        a+= "/n";
+        a+= "\n";
         System.out.println(a);
         a+= 'n';
         System.out.println(a);
+        System.out.println("krushn"+10+20);      // gives output--rushn1020
+        System.out.println("krushna"+(10+20));   // gives output--krushna30
+        System.out.println(10+20+"Krushna");    // gives output--30Krushna
+        System.out.println(10+"krushna"+20);    // gives output--10krushna20
 
     }
 }
