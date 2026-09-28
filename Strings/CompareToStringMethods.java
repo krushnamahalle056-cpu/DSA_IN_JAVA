@@ -17,5 +17,10 @@ public class CompareToStringMethods {
         System.out.println(a);
         a+= 'a';                    // concat the char
         System.out.println(a);
+        a+= "/n";
+        System.out.println(a);
+        a+= 'n';
+        System.out.println(a);
+
     }
 }
