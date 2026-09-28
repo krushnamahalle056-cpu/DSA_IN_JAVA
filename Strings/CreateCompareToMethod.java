@@ -17,6 +17,9 @@ public class CreateCompareToMethod {
         return s1.length() - s2.length();
     }
 
-
-
+    static void main(String[] args) {
+        String s1 = "Krushna";
+        String s2 = "Hariom";
+        System.out.println(CompareTo(s1, s2));
+    }
 }
