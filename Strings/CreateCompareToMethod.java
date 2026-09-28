@@ -1,22 +1,21 @@
 package Strings;
 
 public class CreateCompareToMethod {
-    public static int CompareTo(String a, String b){
-        for(int i = 0; i < a.length(); i++){
-            for(int j = 0; j < b.length(); j++){
-                if(a.charAt(i) == b.charAt(j)){
-                    return 0;
-                }else if(a.charAt(i) != b.charAt(j)){
-                    if(a.charAt(i) >  b.charAt(j)){
-                        System.out.println(i);
-                        break;
-                    }else{
-                        System.out.println(j);
-                        break;
-                    }
-                }
+    public static int myCompareTo(String s1, String s2) {
+
+        int minLength = Math.min(s1.length(), s2.length());
+
+        // Compare characters one by one
+        for (int i = 0; i < minLength; i++) {
+
+            if (s1.charAt(i) != s2.charAt(i)) {
+                return s1.charAt(i) - s2.charAt(i);
             }
         }
+
+        // If common part is same, shorter string comes first
+        return s1.length() - s2.length();
+    }
         return -1;
     }
     static void main(String[] args) {
