@@ -23,5 +23,14 @@ public class BuiltInMethods {
         int a = Integer.parseInt(s5);
         System.out.println(a+1);
 
+
+        // Star printing
+        for(int i=0 ; i<7; i++){
+            System.out.print("*"+" ");
+            for(int j=0; j<i+1; j++){
+                System.out.print("*" + " ");
+            }
+        }
+
     }
 }
