@@ -1,7 +1,7 @@
 package Strings;
 
 public class CreateCompareToMethod {
-    public static int myCompareTo(String s1, String s2) {
+    public static int CompareTo(String s1, String s2) {
 
         int minLength = Math.min(s1.length(), s2.length());
 
@@ -16,9 +16,7 @@ public class CreateCompareToMethod {
         // If common part is same, shorter string comes first
         return s1.length() - s2.length();
     }
-        return -1;
-    }
-    static void main(String[] args) {
-        CompareTo("Krushna", "Hariom");
-    }
+
+
+
 }
