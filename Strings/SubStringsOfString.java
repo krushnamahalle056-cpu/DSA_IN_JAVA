@@ -5,5 +5,9 @@ public class SubStringsOfString {
         // In next class
         String s = "Jaishankar";
         System.out.println(s.substring(0,s.length()-1));
+
+
+
+
     }
 }
