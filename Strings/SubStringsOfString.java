@@ -3,8 +3,14 @@ package Strings;
 public class SubStringsOfString {
     static void main(String[] args) {
         // In next class
-        String s = "Jaishankar";
-        System.out.println(s.substring(0,s.length()-1));
+        String s = "gopi";
+//        System.out.println(s.substring(0,s.length()-1));
+        for(int i = 0; i<s.length(); i++){
+           for(int j = 0+i ; j<s.length();j++){
+               System.out.print(s.substring(i,j+1)+" ");
+           }
+            System.out.println(" ");
+        }
 
 
 
