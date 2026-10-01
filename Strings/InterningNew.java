@@ -20,6 +20,8 @@ public class InterningNew {
         st = 'S' + 'h'+st.substring(2);
         System.out.println(st);
 
+        // Note : String are Immutable in Java for Security reason
+
 
 
     }
