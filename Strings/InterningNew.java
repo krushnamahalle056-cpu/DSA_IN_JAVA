@@ -15,6 +15,11 @@ public class InterningNew {
         String a = new String("kartik");  // create the new orignal string
         System.out.println(a);
 
+        // String Immutability in Java
+        String st = "kanta";   // we want to convert this string kanta to Shanta
+        st = 'S' + 'h'+st.substring(2);
+        System.out.println(st);
+
 
 
     }
