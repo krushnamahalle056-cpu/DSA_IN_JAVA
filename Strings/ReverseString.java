@@ -32,8 +32,8 @@ public class ReverseString {
         String s = "krushna";
         StringBuilder stb = new StringBuilder(s);
         stb.reverse();
-        s = stb.toString();
-        System.out.println(s);
+        s = stb.toString();                      //pahle string ko stringBuilder banaya then StringBuilder ko reverse
+        System.out.println(s);                   // kiya and then String s main store kiya and then print kiya
 
 
 
