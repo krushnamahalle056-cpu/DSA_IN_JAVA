@@ -27,5 +27,15 @@ public class ReverseString {
         sb.insert(2,'m');
         System.out.println(sb);
 
+
+        // String ko reverse kaise kare
+        String s = "krushna";
+        StringBuilder stb = new StringBuilder(s);
+        stb.reverse();
+        s = stb.toString();
+        System.out.println(s);
+
+
+
     }
 }
