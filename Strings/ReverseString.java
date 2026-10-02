@@ -4,8 +4,6 @@ public class ReverseString {
     static void main(String[] args) {
         StringBuilder sb = new StringBuilder("Radha");
         System.out.println(sb);
-//        String n = sb.reverse().toString();
-//        System.out.println(n);
 
         // Reverse Code build
         int i = 0;
@@ -18,6 +16,15 @@ public class ReverseString {
             i++;
             j--;
         }
+        System.out.println(sb);
+
+        String n = sb.reverse().toString();
+        System.out.println(n);
+
+        sb.delete(2,5);
+        System.out.println(sb);
+
+        sb.insert(2,'m');
         System.out.println(sb);
 
     }
