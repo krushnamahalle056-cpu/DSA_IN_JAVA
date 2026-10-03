@@ -20,5 +20,6 @@ public class AnagramQue {
     static void main(String[] args) {
         String s1 = "listen";
         String s2 = "silent";
+        System.out.println(areAnagrams(s1, s2));
     }
 }
