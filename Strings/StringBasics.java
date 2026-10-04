@@ -23,6 +23,9 @@ public class StringBasics {
         String branch = sc.nextLine();   // sc.nextLine() gives the full sentence as output
         System.out.println("Branch Name is: " + branch);
 
+        System.out.println("Enter the PRN No: ");
+
+
 
     }
 }
