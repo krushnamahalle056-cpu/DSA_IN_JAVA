@@ -27,6 +27,9 @@ public class StringBasics {
         String prn = sc.nextLine();
         System.out.println("PRN No is: " + prn);
 
+        System.out.println("Enter roll No: ");
+        String roll = sc.nextLine();
+        System.out.println("roll No is: " + roll);
 
     }
 }
