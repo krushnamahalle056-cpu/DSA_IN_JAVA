@@ -24,6 +24,7 @@ public class StringBasics {
         System.out.println("Branch Name is: " + branch);
 
         System.out.println("Enter the PRN No: ");
+        String prn = sc.nextLine();
 
 
 
