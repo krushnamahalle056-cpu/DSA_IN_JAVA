@@ -21,15 +21,13 @@ public class StringBasics {
 
         System.out.print("Enter Branch Name : ");
         String branch = sc.nextLine();   // sc.nextLine() gives the full sentence as output
-        System.out.println("Branch Name is: " + branch);
-
         System.out.print("Enter the PRN No: ");
         String prn = sc.nextLine();
-        System.out.println("PRN No is: " + prn);
-
         System.out.println("Enter roll No: ");
         String roll = sc.nextLine();
-        System.out.println("roll No is: " + roll);
+        System.out.println("Branch Name is: " + branch);
+        System.out.println("PRN No is: " + prn );
+        System.out.println("roll No is: " + roll );
 
     }
 }
