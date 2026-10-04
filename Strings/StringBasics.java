@@ -26,6 +26,7 @@ public class StringBasics {
         System.out.println("Enter the PRN No: ");
         String prn = sc.nextLine();
         int PRN = Integer.parseInt(prn);
+        System.out.println("PRN No is: " + PRN);
 
 
 
