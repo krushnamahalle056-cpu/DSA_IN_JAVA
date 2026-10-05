@@ -31,5 +31,8 @@ public class StringBasics {
         StringBuilder sb = new StringBuilder("Krushna");
         System.out.println(sb.length() + " "+sb.capacity());
         System.out.println(sb);
+        sb.append("mahalle");      // append means add last
+        System.out.println(sb);
+        sb.deleteCharAt(6);
     }
 }
