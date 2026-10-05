@@ -34,5 +34,8 @@ public class StringBasics {
         sb.append("mahalle");      // append means add last
         System.out.println(sb);
         sb.deleteCharAt(6);
+        System.out.println(sb);
+        sb.insert(2,'i');
+        System.out.println(sb);
     }
 }
