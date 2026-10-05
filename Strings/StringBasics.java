@@ -37,5 +37,9 @@ public class StringBasics {
         System.out.println(sb);
         sb.insert(2,'i');
         System.out.println(sb);
+        sb.delete(12,14);
+        System.out.println(sb);
+        sb.deleteCharAt(3);
+        System.out.println(sb);
     }
 }
