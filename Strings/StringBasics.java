@@ -23,11 +23,13 @@ public class StringBasics {
         String branch = sc.nextLine();   // sc.nextLine() gives the full sentence as output
         System.out.print("Enter the PRN No: ");
         String prn = sc.nextLine();
-        System.out.println("Enter roll No: ");
+        System.out.print("Enter roll No: ");
         String roll = sc.nextLine();
-        System.out.println("Branch Name is: " + branch);
+        System.out.println("Branch Name is: " + branch );
         System.out.println("PRN No is: " + prn );
-        System.out.println("roll No is: " + roll );
-
+        System.out.println("Roll No is: " + roll );
+        StringBuilder sb = new StringBuilder("Krushna");
+        System.out.println(sb.length() + " "+sb.capacity());
+        System.out.println(sb);
     }
 }
