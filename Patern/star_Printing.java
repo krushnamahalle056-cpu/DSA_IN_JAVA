@@ -8,5 +8,20 @@ public class star_Printing {
             }
             System.out.println();
         }
+
+
+
+        // Print a right-angled triangle
+
+        for (int i = 1; i <= 4; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
     }
 }
+
+
+
+
