@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Outputin2DArrays {
     static void main(String[] args) {
 
-
+        // Input form user
         Scanner sc = new Scanner(System.in);
         int[][] arr = new int[4][4];       // --- Initializing empty 2D array
-        System.out.println("Enter 4 integers: ");
+        System.out.println("Enter 16 integers: ");
         for(int i = 0; i<arr.length; i++){
             for(int j = 0; j<arr[0].length; j++){      // arr[0].length means first row madhlya elements chi length
                 arr[i][j] = sc.nextInt();
