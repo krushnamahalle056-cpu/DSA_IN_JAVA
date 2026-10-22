@@ -2,9 +2,9 @@ package MultiDimentionalArrays;
 
 public class Outputin2DArrays {
     static void main(String[] args) {
-        int[][] arr = new int[4][3];
-        for(int i = 0; i<4; i++){
-            for(int j = 0; j<3; j++){
+        int[][] arr = new int[4][4];
+        for(int i = 0; i<arr.length; i++){
+            for(int j = 0; j<arr[0].length; j++){      // arr[0].length means first row madhlya elements chi length
                 System.out.print(arr[i][j] + " ");
             }
             System.out.println();
