@@ -76,6 +76,12 @@ public class star_Printing {
             System.out.println(i);
         }
 
+        // negative table printig
+        for(int i = 20 ; i>=2; i-=2){
+            System.out.println(i);
+        }
+
+
 
 
 
