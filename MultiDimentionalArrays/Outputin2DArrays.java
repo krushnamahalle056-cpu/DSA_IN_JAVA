@@ -34,5 +34,15 @@ public class Outputin2DArrays {
             }
             System.out.println();
         }
+
+        // Sum of 2d array ele
+        int[][] a = {{2,4,4,3},{2,5,7,8},{2,3,6,9}};
+        int sum = 0;
+        for(int i = 0; i<a.length; i++){
+            for(int j = 0; j<a[0].length; j++){
+                sum += a[i][j];
+            }
+        }
+        System.out.println(sum);
     }
 }
