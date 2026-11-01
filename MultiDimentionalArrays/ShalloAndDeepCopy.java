@@ -10,15 +10,17 @@ public class ShalloAndDeepCopy {
         // print the arr 2D array
         for(int i =0; i<arr.length; i++){
             for(int j = 0 ; j<arr[1].length; j++){
-                System.out.println(arr[i][j] + " ");
+                System.out.print(arr[i][j] + " ");
             }
+            System.out.println();
         }
 
         // print the brr 2D array
         for(int i =0; i<brr.length; i++){
             for(int j = 0 ; j<brr[1].length; j++){
-                System.out.println(brr[i][j] + " ");
+                System.out.print(brr[i][j] + " ");
             }
+            System.out.println();
         }
 
         System.out.println(brr[1][2]);
