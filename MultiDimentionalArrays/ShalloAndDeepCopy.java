@@ -15,6 +15,8 @@ public class ShalloAndDeepCopy {
             System.out.println();
         }
 
+        System.out.println();
+
         // print the brr 2D array
         for(int i =0; i<brr.length; i++){
             for(int j = 0 ; j<brr[1].length; j++){
@@ -22,6 +24,8 @@ public class ShalloAndDeepCopy {
             }
             System.out.println();
         }
+
+        System.out.println();
 
         System.out.println(brr[1][2]);
 
