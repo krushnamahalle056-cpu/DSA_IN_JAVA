@@ -21,5 +21,7 @@ public class ShalloAndDeepCopy {
             }
         }
 
+        System.out.println(brr[1][2]);
+
     }
 }
