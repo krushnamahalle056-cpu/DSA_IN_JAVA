@@ -11,5 +11,14 @@ public class PrintUsingForEachLoop {
             System.out.println();
         }
 
+        System.out.println();
+
+        // second method
+        for(int[] a : arr){
+            for(int ele : a){
+                System.out.print(ele+" ");
+            }
+        }
+
     }
 }
