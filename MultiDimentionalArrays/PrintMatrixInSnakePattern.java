@@ -11,6 +11,8 @@ public class PrintMatrixInSnakePattern {
             System.out.println();
         }
 
+        System.out.println();
+
         // Matrix Printing in Snake Pattern
         for(int i=0; i<arr.length; i++){
             if(i%2 != 0){
