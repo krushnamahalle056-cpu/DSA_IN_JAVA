@@ -9,4 +9,8 @@ public class searchA2DMatrix {
 
     int target = 3;
 
+    int n = matrix.length;
+    int m = matrix[0].length;
+
+
 }
