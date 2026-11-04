@@ -1,5 +1,7 @@
 package MultiDimentionalArrays;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class searchA2DMatrix {
     int[][] matrix = {
     {1, 3,5,7},
@@ -11,6 +13,20 @@ public class searchA2DMatrix {
 
     int n = matrix.length;
     int m = matrix[0].length;
+
+    int i = 0;
+    int j = m-1;
+
+   while(i<n && j>=0){
+        if(matrix[i][j]>target){
+            j--;
+        }else if(matrix[i][j] < target){
+            i++;
+        }else{
+            System.out.print("true");
+        }
+   }
+
 
 
 }
