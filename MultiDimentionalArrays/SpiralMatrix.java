@@ -11,33 +11,32 @@ public class SpiralMatrix {
         int n = mat.length;
         int m = mat[0].length;
         int Fc = 0, Lc = m-1 , Fr = 0, Lr = n-1;
-        while(Fr< Lr && Fc < Lc){
+        while(Fr< Lr && Fc < Lc) {
             // left to right
-            for(int j = Fc ; j <= Lc ; j++){
+            for (int j = Fc; j <= Lc; j++) {
                 ans.add(mat[Fr][j]);
-                Fr ++;
+                Fr++;
             }
 
             // top to bottom
-            for(int i = Fr; i <= Lr ; i++){
+            for (int i = Fr; i <= Lr; i++) {
                 ans.add(mat[i][Lc]);
-                Lc --;
+                Lc--;
             }
 
             // right to left
-            for(int j = Lc ; j>=Fc; j--){
-                ans.add(mat[Fc][j]);
-                Fc ++;
-            }
-
-            // bottom to top
-            for(int i = Lr; i>=Fr; i--){
-                ans.add(mat[i][Fc]);
+            for (int j = Lc; j >= Fc; j--) {
+                ans.add(mat[Lr][j]);
                 Lr --;
             }
 
+            // bottom to top
+            for (int i = Lr; i >= Fr; i--) {
+                ans.add(mat[i][Fc]);
+                Fc++;
+            }
         }
-
+        return ans;
 
     }
 
