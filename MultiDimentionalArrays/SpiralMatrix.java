@@ -30,6 +30,11 @@ public class SpiralMatrix {
                 Fc ++;
             }
 
+            // bottom to top
+            for(int i = Lr; i>=Fr; i--){
+                System.out.print(mat[i][Fc]);
+            }
+
         }
 
 
