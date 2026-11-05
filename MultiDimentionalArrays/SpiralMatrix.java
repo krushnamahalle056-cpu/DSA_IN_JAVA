@@ -18,6 +18,13 @@ public class SpiralMatrix {
                 Fr ++;
             }
 
+            // top to bottom
+            for(int i = Fr; i <= Lr ; i++){
+                System.out.println(mat[i][Lc]);
+                Lc --;
+            }
+
+
 
         }
 
