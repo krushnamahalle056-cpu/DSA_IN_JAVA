@@ -14,25 +14,26 @@ public class SpiralMatrix {
         while(Fr< Lr && Fc < Lc){
             // left to right
             for(int j = Fc ; j <= Lc ; j++){
-                System.out.print(mat[Fr][j]);
+                ans.add(mat[Fr][j]);
                 Fr ++;
             }
 
             // top to bottom
             for(int i = Fr; i <= Lr ; i++){
-                System.out.println(mat[i][Lc]);
+                ans.add(mat[i][Lc]);
                 Lc --;
             }
 
             // right to left
             for(int j = Lc ; j>=Fc; j--){
-                System.out.println(mat[Fc][j]);
+                ans.add(mat[Fc][j]);
                 Fc ++;
             }
 
             // bottom to top
             for(int i = Lr; i>=Fr; i--){
-                System.out.print(mat[i][Fc]);
+                ans.add(mat[i][Fc]);
+                Lr --;
             }
 
         }
