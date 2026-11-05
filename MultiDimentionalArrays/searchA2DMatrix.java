@@ -17,16 +17,6 @@ public class searchA2DMatrix {
     int i = 0;
     int j = m-1;
 
-   while(i<n && j>=0){
-        if(matrix[i][j]>target){
-            j--;
-        }else if(matrix[i][j] < target){
-            i++;
-        }else{
-            System.out.print("true");
-        }
-   }
-
 
 
 }
