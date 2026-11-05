@@ -24,7 +24,11 @@ public class SpiralMatrix {
                 Lc --;
             }
 
-
+            // right to left
+            for(int j = Lc ; j>=Fc; j--){
+                System.out.println(mat[Fc][j]);
+                Fc ++;
+            }
 
         }
 
