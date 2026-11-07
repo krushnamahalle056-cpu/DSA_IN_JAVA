@@ -14,6 +14,13 @@ public class MultiplyMatrix {
             }
         }
         ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            res.add(new ArrayList<>());
+            for (int j = 0; j < n; j++) {
+               res.get(i).add(a[i][j]);
+            }
+        }
+        return res;
     }
 
     static void main(String[] args) {
