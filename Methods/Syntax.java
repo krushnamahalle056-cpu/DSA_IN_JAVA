@@ -10,9 +10,12 @@ public class Syntax {
     }
     public static void krushna(){
         System.out.println("Kashish");
-
+        vishal();
     }
-
+    public static void vishal(){
+        System.out.println("Shreya");
+        sarthak();
+    }
 
 
 
