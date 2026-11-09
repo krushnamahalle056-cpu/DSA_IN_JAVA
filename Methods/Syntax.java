@@ -6,8 +6,13 @@ public class Syntax {
     }
     public static void sarthak(){
         System.out.println("Aishwarya");
+        krushna();
+    }
+    public static void krushna(){
+        System.out.println("Kashish");
 
     }
+
 
 
 
