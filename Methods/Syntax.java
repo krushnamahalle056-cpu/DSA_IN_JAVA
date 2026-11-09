@@ -2,7 +2,7 @@ package Methods;
 
 public class Syntax {
     static void main(String[] args) {
-
+        sarthak();
     }
     public static void sarthak(){
         System.out.println("Aishwarya");
