@@ -17,7 +17,7 @@ public class MultiplyMatrix {
         for (int i = 0; i < n; i++) {
             res.add(new ArrayList<>());
             for (int j = 0; j < n; j++) {
-               res.get(i).add(a[i][j]);
+               res.get(i).add(c[i][j]);
             }
         }
         return res;
