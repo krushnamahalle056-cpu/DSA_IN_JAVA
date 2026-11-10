@@ -1,7 +1,7 @@
 package Recursion;
 
 public class GlobleVeriableConcept {
-    static int x = 32;
+    static int x = 32;    // it is use everywhere
 
     static void main(String[] args) {
         print();
