@@ -19,11 +19,18 @@ public class PrintNumberOneToN {
 //    }
 
 
-    // By using global variable
-        public static void print1toN(int a){
-        if (a > n) return;
-        System.out.print(a + " ");
-        print1toN(a+1);
+//    // By using global variable
+//        public static void print1toN(int a){
+//        if (a > n) return;
+//        System.out.print(a + " ");
+//        print1toN(a+1);
+//    }
+
+    // By recursion magic
+    static void print1toN(int a){
+        if(a>n) return;
+        System.out.println(a);
+        print1toN(a-1);
     }
 
 }
