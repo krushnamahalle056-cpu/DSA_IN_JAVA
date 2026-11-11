@@ -30,7 +30,7 @@ public class PrintNumberOneToN {
     static void print1toN(int n){
         if(n==0) return;
         print1toN(n-1);
-        System.out.println(n);
+        System.out.print(n);
     }
 
 }
