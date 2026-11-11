@@ -8,7 +8,7 @@ public class PrintNumberOneToN {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         n = sc.nextInt();
-        print1toN(1);
+        print1toN(n);
     }
 
     // By using two Parameter
@@ -27,10 +27,10 @@ public class PrintNumberOneToN {
 //    }
 
     // By recursion magic
-    static void print1toN(int a){
-        if(a>n) return;
-        System.out.println(a);
-        print1toN(a-1);
+    static void print1toN(int n){
+        if(n==0) return;
+        print1toN(n-1);
+        System.out.println(n);
     }
 
 }
