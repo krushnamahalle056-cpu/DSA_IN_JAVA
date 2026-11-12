@@ -3,12 +3,12 @@ package Recursion;
 import java.util.Scanner;
 
 public class PrintNumberOneToN {
-    static int n;
+//    static int n;
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        n = sc.nextInt();
-        print1toN(n);
+        int n = sc.nextInt();
+        print(n);
     }
 
     // By using two Parameter
@@ -27,10 +27,10 @@ public class PrintNumberOneToN {
 //    }
 
     // By recursion magic
-    static void print1toN(int n){
+    static void print(int n){
         if(n==0) return;
-        print1toN(n-1);
-        System.out.print(n);
+        print(n-1);
+        System.out.print(n + " ");
     }
 
 }
