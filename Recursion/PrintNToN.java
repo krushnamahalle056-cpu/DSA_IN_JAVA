@@ -7,6 +7,7 @@ public class PrintNToN {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
+        printNtoN(n);
     }
 
     static void printNtoN(int n){
