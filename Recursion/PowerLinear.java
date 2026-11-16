@@ -12,5 +12,11 @@ public class PowerLinear {
         System.out.println(a + " raised to the power " + b + "is : "+ pow(a,b));
     }
 
+    static int pow(int a, int b){
+        if(b == 0) return 1;
+        return a * pow(a, b-1);
+
+    }
+
 }
 
