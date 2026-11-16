@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class PowerLinear {
     static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter base: ");
+        System.out.print("enter base: ");
         int a =  sc.nextInt();
-        System.out.println("enter exponent: ");
+        System.out.print("enter exponent: ");
         int b = sc.nextInt();
-        System.out.println(a + " raised to the power " + b + "is : "+ pow(a,b));
+        System.out.print(a + " raised to the power " + b + " is : "+ pow(a,b));
     }
 
 
