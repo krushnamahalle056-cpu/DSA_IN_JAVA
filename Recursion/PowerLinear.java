@@ -20,6 +20,13 @@ public class PowerLinear {
 //        return a * pow(a, b-1);
 //    }
 
+    // code for Time complexity = O(log)
+    static int pow(int a,int b){
+        if(b==0) return 1;
+        int call = pow(a,b-1);
+        if(b%2 == 0) return call*call;
+        else return a*call*call;
+    }
 
 
 }
