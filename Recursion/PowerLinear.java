@@ -9,7 +9,7 @@ public class PowerLinear {
         int a =  sc.nextInt();
         System.out.print("enter exponent: ");
         int b = sc.nextInt();
-        System.out.print(a + " raised to the power " + b + " is : "+ pow(a,b));
+        System.out.print(a + " raised to the power " + b + " is : ");
     }
 
 
